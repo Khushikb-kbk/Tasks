@@ -16,6 +16,7 @@ public class Cricket
     }
 
     void profit(){
+
         if(this.ticket != null){
             this.ticket.sell();
             System.out.println("Sell Tickets from Cricket to make Profits");

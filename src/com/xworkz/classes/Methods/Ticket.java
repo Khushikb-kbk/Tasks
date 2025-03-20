@@ -9,6 +9,7 @@ public class Ticket
         this.cost = cost;
     }
 
+
     void buy(){
         System.out.println("Buying Tickets for Cricket Match (Ticket Type) : "+this.ticketTypes);
     }
