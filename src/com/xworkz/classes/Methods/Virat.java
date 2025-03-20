@@ -1,44 +1,43 @@
 package com.xworkz.classes.Methods;
 
-public class Virat
-{
-    Brush brush ;
-    Clip clip ;
+public class Virat {
+    Brush brush;
+    Clip clip;
     Cricket cricket;
     Ticket ticket;
 
-    Virat(Brush brush, Cricket cricket, Ticket ticket){
+    Virat(Brush brush, Cricket cricket, Ticket ticket) {
         this.brush = brush;
         this.cricket = cricket;
         this.ticket = ticket;
     }
 
-    void play(){
-        if(this.cricket != null){
+    void play() {
+        if (this.cricket != null) {
             System.out.println("Running play in Virat");
             this.cricket.watch();
             this.cricket.profit();
-        }else{
+        } else {
             System.err.println("Not playing Cricket");
         }
     }
 
-    void clean(){
-        if(this.brush != null){
+    void clean() {
+        if (this.brush != null) {
             System.out.println("Running clean method in Virat");
             this.brush.clean();
             this.brush.scrub();
-        }else{
+        } else {
             System.err.println("Not cleaning");
         }
     }
 
-    void relax(){
-        if(this.ticket != null){
+    void relax() {
+        if (this.ticket != null) {
             System.out.println("Running relax method in Virat");
             this.ticket.buy();
             this.ticket.sell();
-        }else{
+        } else {
             System.err.println("Not chilling");
         }
     }
