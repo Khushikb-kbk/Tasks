@@ -1,8 +1,7 @@
-package com.xworkz.classes.Methods;
-import java.awt.*;
+package com.xworkz.classes;
 
 public class Brush {
-    Color color;
+    com.xworkz.classes.Color color;
     Brush(Color color){
         this.color = color;
     }

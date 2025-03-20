@@ -1,4 +1,4 @@
-package com.xworkz.classes.Methods;
+package com.xworkz.classes;
 
 public class Runner
 {
