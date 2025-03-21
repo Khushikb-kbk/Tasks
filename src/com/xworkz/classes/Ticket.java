@@ -17,3 +17,4 @@ public class Ticket
         System.out.println("Selling Tickets for Cricket Match (Price) : "+this.cost);
     }
 }
+

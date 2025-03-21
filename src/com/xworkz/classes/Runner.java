@@ -12,20 +12,20 @@ public class Runner
         Clip[] clips = {clip1, clip2,clip3, clip4, clip5};
         Pushpa pushpa = new Pushpa();
         pushpa.useClip(clips);
-        System.out.println();
+        System.out.println("running");
 
         Ticket ticket = new Ticket(TicketTypes.CONFIRM, 600.00);
         Cricket cricket = new Cricket(ticket);
         cricket.watch();
         cricket.profit();
-        System.out.println();
+        System.out.println("running");
 
         Brush brush = new Brush(Color.BLUE);
         Virat virat = new Virat(brush,cricket,ticket);
         virat.play();
         virat.clean();
         virat.relax();
-        System.out.println();
+        System.out.println("running");
 
 
 

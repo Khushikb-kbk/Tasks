@@ -4,6 +4,7 @@ public enum TicketTypes
 {
     TATKAL, CONFIRM, WAITING;
 
+
 }
 
 
