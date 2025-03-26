@@ -24,6 +24,7 @@ public class Satellite
 
     }
 
+
     public void setCost(double cost) {
         this.cost = cost;
 
