@@ -11,3 +11,4 @@ public class Snake extends Animal
         System.out.println("Snake slithering");
     }
 }
+
