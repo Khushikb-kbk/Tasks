@@ -242,6 +242,16 @@ public class runner
         water.drink();
         water.pour();
 
+        IndianIdol indianIdol=new IndianIdol();
+        IndianIdol.see();
+        IndianIdol.channel();
+
+        Nykaa nykaa=new Nykaa();
+        nykaa.brand();
+        nykaa.color();
+
+
+
 
 
 
