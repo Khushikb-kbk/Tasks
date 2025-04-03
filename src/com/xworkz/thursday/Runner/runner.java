@@ -6,6 +6,7 @@ public class runner
     public static void main(String [] args){
         Khushi khushi = new Khushi();
         khushi.call();
+
         khushi.pronounce();
 
         ShreyaGhoshal shreyaghoshal = new ShreyaGhoshal();
