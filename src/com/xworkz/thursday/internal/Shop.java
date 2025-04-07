@@ -6,12 +6,22 @@ public class Shop
         System.out.println("shop");
     }
 
-    public static void grocery() {
+    public  void grocery() {
         System.out.println("grocery");
     }
 
-    public static void clothing(){
+    public  void clothing(){
         System.out.println("clothing");
+    }
+
+    public  void textiles(){
+        System.out.println("textiles");
+    }
+    public  void granite(){
+        System.out.println("granite");
+    }
+    public  void socks(){
+        System.out.println("socks");
     }
 }
 

@@ -11,5 +11,17 @@ public class Kid
     public void gender(){
         System.out.println("gender of the kid");
     }
+    public void school(){
+        System.out.println("school of the kid");
+    }
+
+public void toy(){
+    System.out.println("toy of the kid");
 }
+    public void colour(){
+        System.out.println("colour of the kid");
+    }
+}
+
+
 

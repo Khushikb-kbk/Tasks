@@ -5,11 +5,23 @@ public class Perfume {
         System.out.println("khushi");
     }
 
-    public static void Zara() {
+    public  void zara() {
         System.out.println("Zara");
     }
 
-    public static void Gucci(){
+    public  void gucci(){
         System.out.println("gucci");
     }
+    public  void dior() {
+        System.out.println("dior");
+    }
+    public  void parkavenue() {
+        System.out.println("park");
+    }
+
+    public  void nivea() {
+        System.out.println("nivea");
+    }
+
+
 }

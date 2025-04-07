@@ -12,5 +12,14 @@ public class Liquid
     public void pour(){
         System.out.println("pour the liquid");
     }
+    public void spill(){
+        System.out.println("spill the liquid");
+    }
+    public void wash(){
+        System.out.println("wash the liquid");
+    }
+    public void juice(){
+        System.out.println("juice the liquid");
+    }
 }
 

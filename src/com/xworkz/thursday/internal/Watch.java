@@ -5,12 +5,20 @@ public class Watch {
         System.out.println("Names");
     }
 
-    public static void Titan() {
+    public void titan() {
         System.out.println("Titan");
     }
 
-    public static void Rado(){
+    public  void rado(){
         System.out.println("Rado");
     }
-}
+    public  void timex(){
+        System.out.println("timex");
+    }
+    public  void michealkors(){
+        System.out.println("kors");
+    }
+    public  void fastrack(){
+        System.out.println("fastrack");
+    }
 }

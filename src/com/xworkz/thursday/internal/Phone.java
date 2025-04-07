@@ -1,18 +1,35 @@
 package com.xworkz.thursday.internal;
 
-public class Phone
-{
+public class Phone {
     public Phone() {
+
         System.out.println("phone");
     }
 
-    public static void memory() {
-        System.out.println("calling a memory");
+    public void memory() {
+
+        System.out.println(" memory");
     }
 
-    public static void charge(){
-        System.out.println("calling a charger");
+    public void charge() {
+
+        System.out.println(" charger");
+
+    }
+
+    public void battery() {
+
+        System.out.println("battery");
+    }
+
+    public void storage() {
+
+        System.out.println("storage");
+
+    }
+
+    public void apps() {
+
+        System.out.println("apps");
     }
 }
-
-

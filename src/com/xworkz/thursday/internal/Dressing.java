@@ -7,9 +7,20 @@ public class Dressing {
 
     }
 
-    public static void Gold() {
+    public  void gold() {
+        System.out.println("dressing");
     }
 
-    public static void Diamond() {
+    public  void diamond() {
+        System.out.println("dressing");
+    }
+    public  void silver() {
+        System.out.println("dressing");
+    }
+    public  void platinum() {
+        System.out.println("dressing");
+    }
+    public  void artifical() {
+        System.out.println("dressing");
     }
 }

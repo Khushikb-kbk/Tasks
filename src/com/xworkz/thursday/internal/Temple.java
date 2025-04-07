@@ -6,12 +6,25 @@ public class Temple
         System.out.println("temples");
     }
 
-    public static void famous() {
+    public  void famous() {
         System.out.println("calling a famous");
     }
 
-    public static void prasada(){
-        System.out.println("calling a prasada");
+    public  void prasada(){
+
+        System.out.println("prasada");
+    }
+    public  void god(){
+
+        System.out.println("god");
+    }
+    public  void flower(){
+
+        System.out.println("flower");
+    }
+    public void blessing(){
+
+        System.out.println("blessing");
     }
 }
 

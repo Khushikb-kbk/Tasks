@@ -10,9 +10,24 @@ public class Names
                 System.out.println("calling a names");
             }
 
-                public void pronounce(){
-                    System.out.println("pronouncing a names");
-                }
+            public void pronounce() {
+                System.out.println("pronouncing a names");
+            }
+
+            public void clear() {
+                System.out.println("clear a names");
+
+            }
+
+            public void write() {
+                System.out.println("write a names");
+            }
+
+            public void spelling(){
+                System.out.println("spell a names");
+
+
+    }
         }
 
 

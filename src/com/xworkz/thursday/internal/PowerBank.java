@@ -6,12 +6,21 @@ public class PowerBank
         System.out.println("powerbank");
     }
 
-    public static void oneplus() {
+    public void oneplus() {
         System.out.println("calling a oneplus");
     }
 
-    public static void xiaomi(){
+    public  void xiaomi(){
         System.out.println("calling a xiaomi");
+    }
+    public  void apple(){
+        System.out.println("calling a apple");
+    }
+    public  void vivo(){
+        System.out.println("calling a vivo");
+    }
+    public  void oppo(){
+        System.out.println("calling a oppo");
     }
 }
 

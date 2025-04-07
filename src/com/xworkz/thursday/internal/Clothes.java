@@ -6,13 +6,24 @@ public class Clothes
         System.out.println("clothes");
     }
 
-    public static void fabric() {
+    public void fabric() {
         System.out.println("fabric");
     }
 
-    public static void material(){
+    public  void material(){
         System.out.println("material");
     }
+    public  void colour() {
+        System.out.println("colour");
+    }
+    public  void design() {
+        System.out.println("design");
+    }
+    public  void brand() {
+        System.out.println("brand");
+
+    }
+
 }
 
 

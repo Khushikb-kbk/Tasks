@@ -6,12 +6,22 @@ public class Language
         System.out.println("Names");
     }
 
-    public static void english() {
+    public  void english() {
         System.out.println("calling a english");
     }
 
-    public static void hindi(){
+    public  void hindi(){
         System.out.println("calling hindi");
+    }
+
+    public  void marati(){
+        System.out.println("calling marati");
+    }
+    public  void konkani(){
+        System.out.println("calling konkani");
+    }
+    public  void telgu(){
+        System.out.println("calling telgu");
     }
 }
 

@@ -6,12 +6,23 @@ public class Vegetables
         System.out.println("vegetables");
     }
 
-    public static void Minerals() {
+    public  void minerals() {
         System.out.println("minerals");
     }
 
-    public static void fibres(){
+    public  void fibres(){
         System.out.println("fibres");
     }
+
+    public  void potassium(){
+        System.out.println("potassium");
+    }
+    public  void folate(){
+        System.out.println("folate");
+    }
+    public  void iron(){
+        System.out.println("iron");
+    }
+
 
 }

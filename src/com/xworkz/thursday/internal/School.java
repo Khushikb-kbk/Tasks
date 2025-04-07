@@ -6,12 +6,22 @@ public class School
         System.out.println("Names");
     }
 
-    public static void Standard() {
+    public  void Standard() {
         System.out.println("calling a standard");
     }
 
-    public static void section(){
+    public  void section(){
         System.out.println("section ");
+    }
+
+    public  void games(){
+        System.out.println("games");
+    }
+    public  void cultural(){
+        System.out.println("cultural");
+    }
+    public  void uniform(){
+        System.out.println("uniform ");
     }
 }
 

@@ -11,5 +11,14 @@ public class ElectricDevice
     public void shop(){
         System.out.println("shop of electric device");
     }
+    public void current(){
+        System.out.println("gets electric shock when touched");
+    }
+    public void damage(){
+        System.out.println("gets electric shock when touched");
+    }
+    public void danger(){
+        System.out.println("gets electric shock when touched");
+    }
 }
 

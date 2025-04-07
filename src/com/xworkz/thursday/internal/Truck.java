@@ -6,13 +6,23 @@ public class Truck
         System.out.println("Names");
     }
 
-    public static void SemiTruck() {
-        System.out.println("semitruck");
+    public  void semiTruck() {
+        System.out.println("semiTruck");
     }
 
-    public static void BoxTruck(){
+    public  void tanker(){
+        System.out.println("tanker truck");
+    }
+    public  void box(){
         System.out.println("box truck");
     }
+    public  void monster(){
+        System.out.println("monster truck");
+    }
+    public  void dump(){
+        System.out.println("dump truck");
+    }
+
 }
 
 

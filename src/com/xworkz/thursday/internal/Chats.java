@@ -6,12 +6,26 @@ public class Chats
         System.out.println("Names");
     }
 
-    public static void panipuri() {
+    public  void panipuri() {
+
         System.out.println("calling a panipuri");
     }
 
-    public static void vadapav(){
+    public  void vadapav(){
+
         System.out.println("calling a vadapav");
+    }
+    public  void momos(){
+
+        System.out.println("calling a momos");
+    }
+    public  void pizza(){
+
+        System.out.println("calling a pizza");
+    }
+    public  void burger(){
+
+        System.out.println("calling a burger");
     }
 }
 

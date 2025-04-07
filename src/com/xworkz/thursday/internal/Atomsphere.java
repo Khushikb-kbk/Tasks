@@ -6,12 +6,22 @@ public class Atomsphere
         System.out.println("atomsphere");
     }
 
-    public static void WaterVapour() {
+    public  void waterVapour() {
         System.out.println("calling a vapour");
     }
 
-    public static void Nitrogen(){
-        System.out.println("nitrogen");
+    public  void gas(){
+        System.out.println("gas");
+    }
+
+    public  void argon(){
+        System.out.println("argon");
+    }
+    public  void carbon(){
+        System.out.println("carbon");
+    }
+    public  void exosphere(){
+        System.out.println("exosphere");
     }
 }
 

@@ -1,17 +1,28 @@
 package com.xworkz.thursday.internal;
 
-public class Juice
-{
+public class Juice {
     public Juice() {
         System.out.println("juice");
     }
 
-    public static void orange() {
+    public void orange() {
         System.out.println("calling a orange");
     }
 
-    public static void pineapple(){
+    public void pineapple() {
         System.out.println("a pineapple");
+    }
+
+    public void apple() {
+        System.out.println("apple");
+
+    }
+    public void grapes() {
+        System.out.println("a grapes");
+    }
+
+    public void watermelon() {
+        System.out.println("a watermelon");
     }
 }
 

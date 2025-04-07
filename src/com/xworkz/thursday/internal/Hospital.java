@@ -6,13 +6,25 @@ public class Hospital
         System.out.println("Hospital");
     }
 
-    public static void patient() {
+    public  void patient() {
         System.out.println("calling a patient");
     }
 
-    public static void injection(){
+    public void injection(){
         System.out.println("injection");
     }
+    public void drip(){
+        System.out.println("injection");
+    }
+    public  void doctor(){
+        System.out.println("injection");
+    }
+    public  void glucose(){
+        System.out.println("injection");
+    }
+
+
+
 }
 
 

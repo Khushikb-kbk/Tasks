@@ -6,12 +6,21 @@ public class Maagi
         System.out.println("Maagi");
     }
 
-    public static void soupy() {
+    public  void soupy() {
         System.out.println("tasty");
     }
 
-    public static void flavour(){
-        System.out.println("pronouncing a names");
+    public  void flavour(){
+        System.out.println("flavour");
+    }
+    public  void spicy(){
+        System.out.println("spicy");
+    }
+    public  void veggies(){
+        System.out.println("veggies");
+    }
+    public  void colour(){
+        System.out.println("colour");
     }
 }
 

@@ -6,14 +6,24 @@ public class Chocolate
         System.out.println("chocolate");
     }
 
-    public static void Kitkat() {
+    public  void kitkat() {
         System.out.println("calling a kitkat");
     }
 
-    public static void munch(){
+    public  void munch(){
         System.out.println("calling a munch");
     }
+    public  void chocobar(){
+        System.out.println("calling a chocobar");
+    }
+    public  void pulse(){
+        System.out.println("calling a pulse");
+    }
+    public  void perk(){
+        System.out.println("calling a perk");
+    }
 }
+
 
 
 

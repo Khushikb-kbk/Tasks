@@ -11,5 +11,15 @@ public class IceCream
     public void size(){
         System.out.println("size of the ice");
     }
+    public void flavour(){
+        System.out.println("flavour of the ice ");
+    }
+    public void company(){
+        System.out.println("company of the ice ");
+    }
+    public void fruity(){
+        System.out.println("fruity of the ice ");
+    }
+
 }
 

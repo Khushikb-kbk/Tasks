@@ -6,12 +6,21 @@ public class Mountain
         System.out.println("mountain");
     }
 
-    public static void peak() {
+    public  void peak() {
         System.out.println("peak");
     }
 
-    public static void valcano(){
-        System.out.println("valcano");
+    public  void volcano(){
+        System.out.println("volcano");
+    }
+    public  void erosion(){
+        System.out.println("erosion");
+    }
+    public  void residual(){
+        System.out.println("residual");
+    }
+    public  void block(){
+        System.out.println("block");
     }
 }
 

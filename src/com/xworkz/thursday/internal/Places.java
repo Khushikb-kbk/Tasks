@@ -6,14 +6,24 @@ public class Places
         System.out.println("places");
     }
 
-    public static void davangere() {
+    public  void davangere() {
         System.out.println("calling a davangere");
     }
 
-    public static void mysore(){
-        System.out.println("pronouncing a mysore");
+    public  void mysore(){
+        System.out.println("a mysore");
+    }
+    public  void hubli(){
+        System.out.println("hubli");
+    }
+    public  void hassan(){
+        System.out.println("hassan");
+    }
+    public  void haveri(){
+        System.out.println("haveri");
     }
 }
+
 
 
 

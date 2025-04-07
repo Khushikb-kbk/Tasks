@@ -5,11 +5,20 @@ public class Shoes {
         System.out.println("khushi");
     }
 
-    public static void Puma() {
+    public  void puma() {
         System.out.println("Puma");
     }
 
-    public static void Adidas(){
+    public  void nike(){
+        System.out.println("nike");
+    }
+    public  void addidas(){
         System.out.println("Adidas");
+    }
+    public  void reebok(){
+        System.out.println("reebok");
+    }
+    public  void sparx(){
+        System.out.println("sparx");
     }
 }

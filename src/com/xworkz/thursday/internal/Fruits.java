@@ -6,12 +6,22 @@ public class Fruits
         System.out.println("Names of fruit");
     }
 
-    public static void healthy() {
+    public  void healthy() {
         System.out.println("healthy");
     }
 
-    public static void vitamins(){
+    public  void vitamins(){
         System.out.println("fruits are rich in vitamins");
+    }
+
+    public  void varieties(){
+        System.out.println("varieties");
+    }
+    public  void iron(){
+        System.out.println("iron");
+    }
+    public  void fiber(){
+        System.out.println("fiber");
     }
 }
 

@@ -1,15 +1,30 @@
 package com.xworkz.thursday.internal;
 
-public class Ornaments {
+public class Ornaments extends Dressing {
     public Ornaments() {
-        System.out.println("khushi");
+        System.out.println("ornaments");
     }
-
-    public static void Gold() {
+@Override
+    public  void gold() {
         System.out.println("Gold");
     }
+    @Override
 
-    public static void Diamond(){
+    public  void diamond(){
         System.out.println("Diamond");
+
+    }
+    @Override
+    public  void silver() {
+        System.out.println("dressing");
+    }
+    @Override
+    public  void platinum() {
+        System.out.println("dressing");
+    }
+    @Override
+    public  void artifical() {
+        System.out.println("dressing");
     }
 }
+

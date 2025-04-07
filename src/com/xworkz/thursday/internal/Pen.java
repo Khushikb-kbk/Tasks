@@ -5,12 +5,21 @@ public class Pen {
         System.out.println("Pen");
     }
 
-    public static void Pentonic() {
+    public  void pentonic() {
         System.out.println("Pentonic");
     }
 
-    public static void Bright(){
+    public  void bright(){
         System.out.println("Bright");
+    }
+    public  void flair(){
+        System.out.println("flair");
+    }
+    public  void writometer(){
+        System.out.println("writometer");
+    }
+    public  void parker(){
+        System.out.println("parker");
     }
 }
 

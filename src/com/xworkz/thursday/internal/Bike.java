@@ -6,12 +6,21 @@ public class Bike
         System.out.println("bike");
     }
 
-    public static void engine() {
+    public  void engine() {
         System.out.println("calling a engine");
     }
 
-    public static void speed(){
+    public  void speed(){
         System.out.println("speed");
+    }
+    public  void saddle(){
+        System.out.println("saddle");
+    }
+    public  void brakes(){
+        System.out.println("brakes");
+    }
+    public  void frame(){
+        System.out.println("frame");
     }
 }
 

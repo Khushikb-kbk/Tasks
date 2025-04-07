@@ -8,14 +8,25 @@ public class SocialMedia
         System.out.println("socialmedia");
     }
 
-    public static void instagram() {
+    public  void instagram() {
         System.out.println("insta");
     }
 
-    public static void Facebook(){
+    public  void facebook(){
         System.out.println("facebook");
     }
+
+    public  void twitter() {
+        System.out.println("twitter");
+    }
+    public  void telegram() {
+        System.out.println("telegram");
+    }
+    public  void snapchat() {
+        System.out.println("snapchat");
+    }
 }
+
 
 
 

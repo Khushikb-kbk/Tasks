@@ -11,5 +11,14 @@ public class HistoricalPlace
     public void destroy(){
         System.out.println("destroy a place");
     }
+    public void construct(){
+        System.out.println("construct a place");
+    }
+    public void famous(){
+        System.out.println("famous a place");
+    }
+    public void people(){
+        System.out.println("people a place");
+    }
 }
 

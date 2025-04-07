@@ -3,16 +3,26 @@ package com.xworkz.thursday.internal;
 public class Vechile
 {
     public Vechile() {
-        System.out.println("Names");
+        System.out.println("vehicle");
     }
 
-    public static void TwoWheeler() {
-        System.out.println("calling a names");
+    public  void twoWheeler() {
+        System.out.println("calling a twowheeler");
     }
 
-    public static void FourWheeler(){
-        System.out.println("pronouncing a names");
+    public  void fourWheeler(){
+        System.out.println(" a four");
     }
+    public  void auto() {
+        System.out.println("calling a auto");
+    }
+    public  void bus() {
+        System.out.println("calling a bus");
+    }
+    public  void tractor() {
+        System.out.println("calling a tractor");
+    }
+
 }
 
 

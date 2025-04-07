@@ -5,11 +5,20 @@ public class Cosmetics {
         System.out.println("khushi");
     }
 
-    public static void Maybelline() {
+    public  void maybelline() {
         System.out.println("Maybelline");
     }
 
-    public static void MAC(){
+    public  void mac(){
         System.out.println("MAC");
+    }
+    public  void mars() {
+        System.out.println("mars");
+    }
+    public  void lakme() {
+        System.out.println("lakme");
+    }
+    public  void facescanada() {
+        System.out.println("faces canada");
     }
 }

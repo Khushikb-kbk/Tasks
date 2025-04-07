@@ -9,7 +9,16 @@ public class Veg
         System.out.println("eat veg food");
     }
     public void prepare(){
-        System.out.println("prapare veg foof");
+        System.out.println("prapare veg food");
+    }
+    public void veggies(){
+        System.out.println("prapare veg food");
+    }
+    public void raita(){
+        System.out.println("prapare veg food");
+    }
+    public void paneer(){
+        System.out.println("prapare veg food");
     }
 }
 

@@ -5,14 +5,25 @@ public class Laptops {
         System.out.println("Laptops");
     }
 
-    public static void battery() {
-        System.out.println("calling a names");
+    public void battery() {
+        System.out.println("battery ");
     }
 
-    public static void Company(){
-        System.out.println("pronouncing a names");
+    public void company() {
+        System.out.println("company ");
+    }
+
+    public void memory() {
+        System.out.println("memory ");
+    }
+
+    public void apps() {
+        System.out.println("company ");
+    }
+
+    public void storage() {
+        System.out.println("company ");
     }
 }
-
 
 
