@@ -8,7 +8,7 @@ public class Nykaa extends NailPolish{
     public void color() {
         System.out.println("color of the nailPolish");
     }
-@Override
+   @Override
     public void brand() {
         System.out.println("brand of the nailPolish");
     }
@@ -25,6 +25,7 @@ public class Nykaa extends NailPolish{
         System.out.println("matt of the nailPolish");
     }
 }
+
 
 
 

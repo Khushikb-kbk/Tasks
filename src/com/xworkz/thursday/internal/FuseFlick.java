@@ -25,6 +25,8 @@ public class FuseFlick extends ElectricDevice
     public void danger(){
         System.out.println("gets electric shock when touched");
     }
+
 }
+
 
 

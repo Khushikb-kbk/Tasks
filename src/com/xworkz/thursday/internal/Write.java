@@ -26,5 +26,7 @@ public class Write extends Pen{
     public  void parker(){
         System.out.println("parker");
     }
+
+
 }
 

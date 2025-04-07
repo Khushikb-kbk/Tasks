@@ -32,6 +32,7 @@ public class Boat extends Watercraft
         System.out.println("sink");
 
 
+
     }
 
 }

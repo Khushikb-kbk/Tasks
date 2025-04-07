@@ -26,6 +26,7 @@ public class Wheels extends Vechile{
     public  void tractor() {
         System.out.println("calling a tractor");
     }
+    
 
 }
 

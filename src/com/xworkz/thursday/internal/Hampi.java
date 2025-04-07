@@ -24,5 +24,6 @@ public class Hampi extends HistoricalPlace{
     public void people(){
         System.out.println("people a place");
     }
+
 }
 

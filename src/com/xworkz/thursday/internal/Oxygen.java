@@ -30,6 +30,7 @@ public class Oxygen extends Hospital
 
 
 
+
 }
 
 

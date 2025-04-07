@@ -27,6 +27,7 @@ public class Web extends Framework {
         System.out.println("server");
     }
 
+
     @Override
     public void database() {
         System.out.println("database");

@@ -7,11 +7,13 @@ public class Tomato extends Vegetables{
 
     }
     @Override
-    public  void Minerals() {
+    public  void minerals() {
+
         System.out.println("minerals");
     }
     @Override
     public  void fibres(){
+
         System.out.println("fibres");
     }
     @Override
@@ -24,6 +26,7 @@ public class Tomato extends Vegetables{
     }
     @Override
     public  void iron(){
+
         System.out.println("iron");
     }
 

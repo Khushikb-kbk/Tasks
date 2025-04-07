@@ -2,10 +2,12 @@ package com.xworkz.thursday.internal;
 
 public class Ornaments extends Dressing {
     public Ornaments() {
+
         System.out.println("ornaments");
     }
 @Override
     public  void gold() {
+
         System.out.println("Gold");
     }
     @Override
@@ -16,6 +18,7 @@ public class Ornaments extends Dressing {
     }
     @Override
     public  void silver() {
+
         System.out.println("dressing");
     }
     @Override
@@ -27,4 +30,5 @@ public class Ornaments extends Dressing {
         System.out.println("dressing");
     }
 }
+
 

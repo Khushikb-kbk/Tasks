@@ -13,6 +13,7 @@ public class Cake extends Dessert
 @Override
     public  void decorate() {
         System.out.println("decorate");
+
     }
 @Override
     public void serve() {

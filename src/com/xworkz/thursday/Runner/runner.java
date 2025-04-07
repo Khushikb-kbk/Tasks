@@ -2,6 +2,8 @@ package com.xworkz.thursday.Runner;
 import com.xworkz.thursday.Puzzle;
 import com.xworkz.thursday.internal.*;
 
+import java.util.concurrent.Callable;
+
 
 public class runner
 {
@@ -2275,6 +2277,210 @@ public class runner
         poetry.perform();
         poetry.draft();
         System.out.println("================================");
+
+
+
+
+
+
+
+        Person person = new Person();
+        person.job(admin);
+
+
+        Ride ride = new Ride();
+        ride.bell(bicycle);
+
+
+        Vanilla vanilla = new Vanilla();
+        vanilla.cherry(cake);
+
+
+        Phantom phantom = new Phantom();
+        phantom.tufan(rollsroyce);
+
+
+        Blush blush = new Blush();
+        blush.foundation(makeup);
+
+
+        Shipping shipping = new Shipping();
+        shipping.shopping(nykaa);
+
+
+        Ball ball = new Ball();
+        ball.sphere(round);
+
+
+        Red red = new Red();
+        red.edible(tomato);
+
+
+        Mirchi mirchi = new Mirchi();
+        mirchi.chilli(shamnur);
+
+
+        Elaichi elaichi = new Elaichi();
+        elaichi.spices(masala);
+
+
+        Jesus jesus = new Jesus();
+        jesus.christian(christmas);
+
+
+        Raisins raisins = new Raisins();
+        raisins.calories(mixfruit);
+
+
+        Frame frame = new Frame();
+        frame.polarized(shades);
+
+
+        Filling filling = new Filling();
+        filling.expresso(truffle);
+
+
+        Muffin muffin = new Muffin();
+        muffin.tarts(pastry);
+
+
+        Voltage voltage = new Voltage();
+        voltage.capacity(battery);
+
+
+        Lithium lithium = new Lithium();
+        lithium.atoms(chemistry);
+
+
+        Beaded beaded = new Beaded();
+        beaded.accents(ornaments);
+
+
+        Wings wings = new Wings();
+        wings.roar(dragon);
+
+
+        Browsers browsers = new Browsers();
+        browsers.links(web);
+
+
+        Virus virus = new Virus();
+        virus.corona(covid);
+
+
+        Analog analog = new Analog();
+        analog.records(video);
+
+
+        Automobile automobile = new Automobile();
+        automobile.innovations(bugati);
+
+        Target target = new Target();
+        target.tax(bonus);
+
+
+        Steam steam = new Steam();
+        steam.vapour(water);
+
+
+        Diameter diameter = new Diameter();
+        diameter.load(wheels);
+
+
+        Jupiter jupiter = new Jupiter();
+        jupiter.saturn(gasGiant);
+
+
+        Judges judges = new Judges();
+        judges.franchise(indianIdol);
+
+
+        Fragile fragile = new Fragile();
+        fragile.weight(load);
+
+
+        Cabin cabin = new Cabin();
+        cabin.weight(elevator);
+
+
+        Rock rock = new Rock();
+        rock.bouldering(climbing);
+
+
+        Authority authority = new Authority();
+        authority.term(presidential);
+
+
+        Equipment equipment = new Equipment();
+        equipment.telecom(samsung);
+
+
+        Entities entities = new Entities();
+        entities.terminology(fuseFlick);
+
+
+        Chopper chopper = new Chopper();
+        chopper.cut(items);
+
+
+        Investments investments = new Investments();
+        investments.offer(dell);
+
+
+        Mass mass = new Mass();
+        mass.symbol(neutron);
+
+
+        Ideas ideas = new Ideas();
+        ideas.stories(poetry);
+
+
+        Eat eat = new Eat();
+        eat.habitat(shark);
+
+
+        Form form = new Form();
+        form.sheet(variety);
+
+
+        Headings headings = new Headings();
+        headings.bold(read);
+
+
+        Breathe breathe = new Breathe();
+        breathe.inhale(oxygen);
+
+
+        Sea sea = new Sea();
+        sea.exhale(dolphin);
+
+
+        Virupaksha virupaksha = new Virupaksha();
+        virupaksha.pujar(hampi);
+
+
+        Handwriting handwriting = new Handwriting();
+        handwriting.neat(write);
+
+
+        Feathers feathers = new Feathers();
+        feathers.count(ostrich);
+
+
+        Junk junk = new Junk();
+        junk.capsicum(gobi);
+
+
+        Brush brush = new Brush();
+        brush.clean(painter);
+
+
+       Casino casino = new Casino();
+       casino.ship(boat);
+
+
+       Technology technology = new Technology();
+       technology.learn(online);
 
 
 

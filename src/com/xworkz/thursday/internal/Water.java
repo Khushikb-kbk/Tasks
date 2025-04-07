@@ -26,6 +26,7 @@ public class Water extends Liquid
     public void juice(){
         System.out.println("juice the liquid");
     }
+
 }
 
 

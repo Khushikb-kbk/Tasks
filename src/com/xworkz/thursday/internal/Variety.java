@@ -28,6 +28,8 @@ public class Variety extends Colour
     public void brown() {
         System.out.println("Pink Colour");
     }
+
+
 }
 
 

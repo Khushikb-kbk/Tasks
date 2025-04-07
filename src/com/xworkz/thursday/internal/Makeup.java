@@ -10,7 +10,7 @@ public class Makeup extends Cosmetics {
     public  void maybelline() {
         System.out.println("Maybelline");
     }
-@Override
+    @Override
     public  void mac(){
         System.out.println("MAC");
     }
@@ -27,4 +27,5 @@ public class Makeup extends Cosmetics {
         System.out.println("faces canada");
     }
 }
+
 

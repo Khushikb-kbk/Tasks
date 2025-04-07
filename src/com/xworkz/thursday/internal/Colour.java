@@ -1,6 +1,6 @@
 package com.xworkz.thursday.internal;
 
-import java.sql.SQLOutput;
+
 
 public class Colour {
     public Colour() {
