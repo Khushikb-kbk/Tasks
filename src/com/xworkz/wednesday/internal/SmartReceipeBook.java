@@ -17,3 +17,4 @@ public class SmartReceipeBook
         return "Recipes: " + recipeCount + ", Voice Guided: " + voiceGuided + ", Cuisine: " + cuisineType;
     }
 }
+

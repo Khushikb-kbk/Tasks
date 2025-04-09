@@ -1,6 +1,7 @@
 package com.xworkz.wednesday.internal;
 
-public class FitnessTracker
+public class
+FitnessTracker
 {
     private String brand;
     private boolean heartRateMonitor;

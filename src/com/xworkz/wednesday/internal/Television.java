@@ -16,3 +16,4 @@ public class Television {
         return "Type: " + type + ", Size: " + size + " inch, Smart: " + smart;
     }
 }
+

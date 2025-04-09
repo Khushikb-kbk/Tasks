@@ -1,6 +1,7 @@
 package com.xworkz.wednesday.internal;
 
-public class SmartMugWarmer
+public class
+SmartMugWarmer
 {
     private int maxTemperature;
     private boolean autoShutoff;

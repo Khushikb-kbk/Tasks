@@ -16,6 +16,7 @@ public class Job
     public String toString(){
         return "Title :"+title+" Company : "+company+" Salary : "+salary;
     }
+
 }
 
 

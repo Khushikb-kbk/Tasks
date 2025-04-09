@@ -16,5 +16,6 @@ public class MoodLamp
     public String toString() {
         return "Color: " + lightColor + ", Brightness: " + brightnessLevel + ", Music Sync: " + musicSync;
     }
+
 }
 

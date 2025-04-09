@@ -1,6 +1,7 @@
 package com.xworkz.wednesday.internal;
 
-public class AirFryer
+public class
+AirFryer
 {
     private String brand;
     private double capacity;

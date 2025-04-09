@@ -15,3 +15,4 @@ public class SmartPetCollar
         return   ", GPS Enabled: " + gpsEnabled + ", Battery: " + batteryHours + " hrs";
     }
 }
+

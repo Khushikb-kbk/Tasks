@@ -16,5 +16,6 @@ public class FoldableKeyboard
     public String toString() {
         return "Layout: " + layout + ", Backlit: " + backlit + ", Folds: " + folds;
     }
+
 }
 
