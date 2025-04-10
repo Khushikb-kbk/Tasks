@@ -1,7 +1,6 @@
 package com.xworkz.wednesday.internal;
 
-public class Router
-{
+public class Router {
     private String brand;
     private int range;
     private boolean dualBand;
@@ -15,6 +14,11 @@ public class Router
     @Override
     public String toString() {
         return "Brand: " + brand + ", Range: " + range + "m, Dual Band: " + dualBand;
+    }
+
+    @Override
+    public int hashCode() {
+        return 537;
     }
 }
 

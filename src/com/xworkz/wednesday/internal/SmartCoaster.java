@@ -16,6 +16,10 @@ public class SmartCoaster
     public String toString() {
         return "Temp Detection: " + temperatureDetection + ", Material: " + material + ", LED Indicator: " + ledIndicator;
     }
+    @Override
+    public int hashCode() {
+        return 580;
+    }
 }
 
 

@@ -17,5 +17,9 @@ public class FoldableKeyboard
         return "Layout: " + layout + ", Backlit: " + backlit + ", Folds: " + folds;
     }
 
+    @Override
+    public int hashCode() {
+        return 295;
+    }
 }
 

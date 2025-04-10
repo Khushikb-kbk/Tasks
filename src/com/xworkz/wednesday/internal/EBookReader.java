@@ -16,6 +16,10 @@ public class EBookReader
     public String toString() {
         return "Brand: " + brand + ", Storage: " + storage + "GB, Backlight: " + backlight;
     }
+    @Override
+    public int hashCode() {
+        return 252;
+    }
 }
 
 

@@ -16,6 +16,10 @@ public class SmartPlantPot
     public String toString() {
         return "Plant Type: " + plantType + ", Moisture Sensor: " + moistureSensor + ", Water Level: " + waterLevel + "%";
     }
+    @Override
+    public int hashCode() {
+        return 700;
+    }
 }
 
 

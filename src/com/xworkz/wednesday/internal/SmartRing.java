@@ -16,6 +16,10 @@ public class SmartRing
     public String toString() {
         return "Material: " + material + ", Heart Rate Sensor: " + heartRateSensor + ", Battery: " + batteryDays + " days";
     }
+    @Override
+    public int hashCode() {
+        return 727;
+    }
 }
 
 

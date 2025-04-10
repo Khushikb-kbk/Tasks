@@ -16,6 +16,10 @@ public class Keyboard
     public String toString(){
         return "Type :"+type+" Brand : "+brand+" Key_count: "+key_count;
     }
+    @Override
+    public int hashCode() {
+        return 400;
+    }
 }
 
 

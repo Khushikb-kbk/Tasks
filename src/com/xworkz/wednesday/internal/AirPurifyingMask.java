@@ -16,6 +16,10 @@ public class AirPurifyingMask
     public String toString() {
         return "Brand: " + brand + ", Active Filtration: " + activeFiltration + ", Usage Hours: " + usageHours;
     }
+    @Override
+    public int hashCode() {
+        return 80;
+    }
 }
 
 

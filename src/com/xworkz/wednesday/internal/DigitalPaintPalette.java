@@ -16,6 +16,10 @@ public class DigitalPaintPalette
     public String toString() {
         return "Colors: " + colorCount + ", Pressure Sensitive: " + pressureSensitive + ", Model: " + model;
     }
+    @Override
+    public int hashCode() {
+        return 204;
+    }
 }
 
 

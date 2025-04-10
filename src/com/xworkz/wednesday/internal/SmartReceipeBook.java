@@ -16,5 +16,9 @@ public class SmartReceipeBook
     public String toString() {
         return "Recipes: " + recipeCount + ", Voice Guided: " + voiceGuided + ", Cuisine: " + cuisineType;
     }
+    @Override
+    public int hashCode() {
+        return 730;
+    }
 }
 

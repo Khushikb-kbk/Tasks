@@ -16,6 +16,10 @@ public class DigitalCompass
     public String toString() {
         return "Model: " + model + ", GPS Enabled: " + gpsEnabled + ", Accuracy: ±" + accuracy + "°";
     }
+    @Override
+    public int hashCode() {
+        return 200;
+    }
 }
 
 

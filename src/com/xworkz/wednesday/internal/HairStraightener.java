@@ -16,6 +16,10 @@ public class HairStraightener
     public String toString() {
         return "Brand: " + brand + ", Temperature: " + temperature + "°C, Ceramic Plates: " + ceramicPlates;
     }
+    @Override
+    public int hashCode() {
+        return 340;
+    }
 }
 
 

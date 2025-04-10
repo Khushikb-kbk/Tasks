@@ -16,6 +16,10 @@ public class CeilingFan
     public String toString() {
         return "Brand: " + brand + ", Speed: " + speed + " RPM, Remote Control: " + remoteControl;
     }
+    @Override
+    public int hashCode() {
+        return 162;
+    }
 }
 
 

@@ -16,6 +16,10 @@ public class DigitalShoe
     public String toString() {
         return "Model: " + model + ", Steps Tracked: " + stepsTracked + ", Auto Lacing: " + autoLacing;
     }
+    @Override
+    public int hashCode() {
+        return 230;
+    }
 }
 
 

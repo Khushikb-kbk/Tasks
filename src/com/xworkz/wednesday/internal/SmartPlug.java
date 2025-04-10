@@ -16,6 +16,10 @@ public class SmartPlug
     public String toString() {
         return "Brand: " + brand + ", Voice Control: " + voiceControl + ", Max Load: " + maxLoad + "W";
     }
+    @Override
+    public int hashCode() {
+        return 720;
+    }
 }
 
 

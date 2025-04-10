@@ -16,6 +16,10 @@ public class SmartTrashCan
     public String toString() {
         return "Capacity: " + capacity + "L, Auto Open: " + autoOpen + ", Odor Control: " + odorControl;
     }
+    @Override
+    public int hashCode() {
+        return 754;
+    }
 }
 
 

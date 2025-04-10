@@ -16,6 +16,10 @@ public class Truck
     public String toString() {
         return "Brand: " + brand + ", Load Capacity: " + loadCapacity + " kg, 4WD: " + fourWheelDrive;
     }
+    @Override
+    public int hashCode() {
+        return 875;
+    }
 }
 
 

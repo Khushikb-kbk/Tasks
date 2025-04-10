@@ -16,6 +16,10 @@ public class Boat
     public String toString() {
         return "Type: " + type + ", Capacity: " + capacity + " people, Motorized: " + motorized;
     }
+    @Override
+    public int hashCode() {
+        return 130;
+    }
 }
 
 

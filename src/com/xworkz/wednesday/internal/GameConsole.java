@@ -1,7 +1,6 @@
 package com.xworkz.wednesday.internal;
 
-public class GameConsole
-{
+public class GameConsole {
     private String brand;
     private String model;
     private boolean portable;
@@ -16,6 +15,12 @@ public class GameConsole
     public String toString() {
         return "Brand: " + brand + ", Model: " + model + ", Portable: " + portable;
     }
+
+    @Override
+    public int hashCode() {
+        return 298;
+    }
 }
+
 
 

@@ -16,6 +16,10 @@ public class SmartStoveKnob
     public String toString() {
         return "Temperature: " + temperature + "°C, Child Lock: " + childLock + ", Mode: " + mode;
     }
+    @Override
+    public int hashCode() {
+        return 760;
+    }
 }
 
 

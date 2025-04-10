@@ -16,6 +16,10 @@ public class GamingHeadset
     public String toString() {
         return "Brand: " + brand + ", Surround Sound: " + surroundSound + ", Noise Cancelling Mic: " + noiseCancellingMic;
     }
+    @Override
+    public int hashCode() {
+        return 300;
+    }
 }
 
 

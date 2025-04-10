@@ -16,6 +16,10 @@ public class Monitor
     public String toString() {
         return "Brand: " + brand + ", Size: " + size + ", Resolution: " + resolution;
     }
+    @Override
+    public int hashCode() {
+        return 450;
+    }
 }
 
 

@@ -16,6 +16,10 @@ public class Tablet
     public String toString() {
         return "Brand: " + brand + ", Screen Size: " + screenSize + "\", Stylus Support: " + stylusSupport;
     }
+    @Override
+    public int hashCode() {
+        return 840;
+    }
 }
 
 

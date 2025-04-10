@@ -16,6 +16,10 @@ public class ExternalHardDrive
     public String toString() {
         return "Brand: " + brand + ", Capacity: " + capacity + "GB, Connection: " + connection;
     }
+    @Override
+    public int hashCode() {
+        return 280;
+    }
 }
 
 

@@ -17,5 +17,9 @@ SmartMugWarmer
     public String toString() {
         return "Max Temp: " + maxTemperature + "°C, Auto Shutoff: " + autoShutoff + ", Color: " + color;
     }
+    @Override
+    public int hashCode() {
+        return 630;
+    }
 }
 

@@ -16,6 +16,10 @@ public class Book
     public String toString(){
         return "Title :"+title+" Author : "+author+" Pages : "+pages;
     }
+    @Override
+    public int hashCode() {
+        return 125;
+    }
 }
 
 

@@ -16,6 +16,10 @@ public class VoiceTranslator
     public String toString() {
         return "Language: " + language + ", Offline Support: " + offlineSupport + ", Word Limit: " + wordLimit;
     }
+    @Override
+    public int hashCode() {
+        return 920;
+    }
 }
 
 

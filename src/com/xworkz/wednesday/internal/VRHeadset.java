@@ -15,6 +15,10 @@ public class VRHeadset {
     public String toString() {
         return "Brand: " + brand + ", Wireless: " + wireless + ", Field of View: " + fieldOfView + "°";
     }
+    @Override
+    public int hashCode() {
+        return 930;
+    }
 }
 
 

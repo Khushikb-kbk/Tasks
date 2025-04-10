@@ -16,6 +16,10 @@ public class Laptop
     public String toString(){
         return "Brand :"+brand+" Processor : "+processor+" Ram : "+ram;
     }
+    @Override
+    public int hashCode() {
+        return 420;
+    }
 }
 
 

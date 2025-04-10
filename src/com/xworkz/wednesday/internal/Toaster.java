@@ -16,6 +16,10 @@ public class Toaster
     public String toString() {
         return "Brand: " + brand + ", Slice Capacity: " + sliceCapacity + ", Defrost Option: " + defrostOption;
     }
+    @Override
+    public int hashCode() {
+        return 870;
+    }
 }
 
 

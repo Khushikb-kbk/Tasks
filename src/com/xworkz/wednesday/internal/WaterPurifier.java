@@ -16,6 +16,10 @@ public class WaterPurifier
     public String toString() {
         return "Brand: " + brand + ", Capacity: " + capacity + "L, RO Technology: " + roTechnology;
     }
+    @Override
+    public int hashCode() {
+        return 860;
+    }
 }
 
 

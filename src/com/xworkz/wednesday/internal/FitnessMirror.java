@@ -16,6 +16,10 @@ public class FitnessMirror
     public String toString() {
         return "Brand: " + brand + ", Height: " + height + " cm, AI Trainer: " + aiTrainer;
     }
+    @Override
+    public int hashCode() {
+        return 290;
+    }
 }
 
 

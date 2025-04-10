@@ -16,6 +16,10 @@ public class Projector
     public String toString() {
         return "Brand: " + brand + ", Lumens: " + lumens + ", HD: " + hd;
     }
+    @Override
+    public int hashCode() {
+        return 506;
+    }
 }
 
 

@@ -16,6 +16,10 @@ public class DigitalThermometer
     public String toString() {
         return "Temperature: " + temperature + unit + ", Bluetooth: " + bluetoothEnabled;
     }
+    @Override
+    public int hashCode() {
+        return 241;
+    }
 }
 
 

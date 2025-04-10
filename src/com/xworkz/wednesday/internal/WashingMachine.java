@@ -16,6 +16,10 @@ public class WashingMachine
     public String toString() {
         return "Brand: " + brand + ", Load Capacity: " + loadCapacity + "kg, Front Load: " + frontLoad;
     }
+    @Override
+    public int hashCode() {
+        return 840;
+    }
 }
 
 

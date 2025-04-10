@@ -16,6 +16,10 @@ public class SmartPillow
     public String toString() {
         return "Sleep Tracking: " + sleepTracking + ", Softness Level: " + softnessLevel + ", Fabric: " + fabricType;
     }
+    @Override
+    public int hashCode() {
+        return 690;
+    }
 }
 
 

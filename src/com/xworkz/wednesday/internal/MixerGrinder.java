@@ -16,6 +16,10 @@ public class MixerGrinder
     public String toString() {
         return "Brand: " + brand + ", Jars: " + jars + ", Power: " + power + "W";
     }
+    @Override
+    public int hashCode() {
+        return 440;
+    }
 }
 
 

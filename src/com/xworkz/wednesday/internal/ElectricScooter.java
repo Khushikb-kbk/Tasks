@@ -16,6 +16,10 @@ public class ElectricScooter
     public String toString() {
         return "Model: " + model + ", Top Speed: " + topSpeed + " km/h, Range: " + range + " km";
     }
+    @Override
+    public int hashCode() {
+        return 273;
+    }
 }
 
 

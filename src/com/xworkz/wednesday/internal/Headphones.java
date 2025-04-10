@@ -16,6 +16,10 @@ public class Headphones
     public String toString() {
         return "Brand: " + brand + ", Noise Cancelling: " + noiseCancelling + ", Type: " + type;
     }
+    @Override
+    public int hashCode() {
+        return 350;
+    }
 }
 
 

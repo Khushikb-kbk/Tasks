@@ -16,6 +16,10 @@ public class VirtualPet
     public String toString() {
         return "Name: " + name + ", Species: " + species + ", Happiness Level: " + happinessLevel;
     }
+    @Override
+    public int hashCode() {
+        return 900;
+    }
 }
 
 

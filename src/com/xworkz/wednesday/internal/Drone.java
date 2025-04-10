@@ -17,5 +17,9 @@ public class Drone
         return "Model: " + model + ", Range: " + range + " km, Camera: " + camera;
     }
 
+    @Override
+    public int hashCode() {
+        return 250;
+    }
 }
 

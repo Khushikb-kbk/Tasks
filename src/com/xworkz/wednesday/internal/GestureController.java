@@ -16,6 +16,11 @@ public class GestureController
     public String toString() {
         return "Device: " + deviceName + ", Range: " + range + " cm, Haptic Feedback: " + hapticFeedback;
     }
+    @Override
+    public int hashCode() {
+        return 320;
+    }
+
 }
 
 

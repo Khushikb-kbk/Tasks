@@ -16,6 +16,10 @@ public class City
     public String toString(){
         return "Name :"+name+" Population : "+population+" Country: "+country;
     }
+    @Override
+    public int hashCode() {
+        return 173;
+    }
 }
 
 

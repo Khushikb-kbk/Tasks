@@ -16,6 +16,10 @@ public class SmartThermostat
     public String toString() {
         return "Brand: " + brand + ", Remote Control: " + remoteControl + ", Temperature Range: " + temperatureRange + "°C";
     }
+    @Override
+    public int hashCode() {
+        return 728;
+    }
 }
 
 

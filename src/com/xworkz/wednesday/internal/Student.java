@@ -15,6 +15,10 @@ public class Student {
     public String toString(){
         return "Roll No :"+rollNo+" Name : "+name+" Age : "+age;
     }
+    @Override
+    public int hashCode() {
+        return 850;
+    }
 }
 
 

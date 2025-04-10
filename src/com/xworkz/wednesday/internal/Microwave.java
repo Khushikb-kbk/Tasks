@@ -16,6 +16,10 @@ public class Microwave
     public String toString() {
         return "Brand: " + brand + ", Power: " + power + "W, Convection: " + convection;
     }
+    @Override
+    public int hashCode() {
+        return 430;
+    }
 }
 
 

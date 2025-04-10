@@ -16,6 +16,10 @@ public class SmartWatch
     public String toString() {
         return "Brand: " + brand + ", Waterproof: " + waterproof + ", Battery Life: " + batteryLife + "h";
     }
+    @Override
+    public int hashCode() {
+        return 789;
+    }
 }
 
 

@@ -17,4 +17,8 @@ public InductionCookTop(String brand, int power, int temperatureLevels) {
 public String toString() {
     return "Brand: " + brand + ", Power: " + power + "W, Temperature Levels: " + temperatureLevels;
 }
+    @Override
+    public int hashCode() {
+        return 370;
+    }
 }

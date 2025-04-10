@@ -16,6 +16,10 @@ public class SandwichMaker
     public String toString() {
         return "Brand: " + brand + ", Slice Capacity: " + sliceCapacity + ", Grill Function: " + grillFunction;
     }
+    @Override
+    public int hashCode() {
+        return 548;
+    }
 }
 
 

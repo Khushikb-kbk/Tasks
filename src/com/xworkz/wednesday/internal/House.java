@@ -16,6 +16,10 @@ public class House
     public String toString(){
         return "Address :"+address+" Bathrooms : "+bathrooms+" Bedrooms: "+bedrooms;
     }
+    @Override
+    public int hashCode() {
+        return 365;
+    }
 }
 
 

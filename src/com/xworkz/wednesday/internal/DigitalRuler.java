@@ -16,6 +16,10 @@ public class DigitalRuler
     public String toString() {
         return "Length: " + length + unit + ", Laser Guided: " + laserGuided;
     }
+    @Override
+    public int hashCode() {
+        return 220;
+    }
 }
 
 

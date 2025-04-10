@@ -16,6 +16,10 @@ public class DigitalTatoo
     public String toString() {
         return "Design: " + design + ", Animated: " + animated + ", Battery Life: " + batteryLife + " hours";
     }
+    @Override
+    public int hashCode() {
+        return 220;
+    }
 }
 
 

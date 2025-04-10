@@ -16,6 +16,10 @@ public class Bus
     public String toString() {
         return "Operator: " + operator + ", Seating Capacity: " + seatingCapacity + ", AC: " + acAvailable;
     }
+    @Override
+    public int hashCode() {
+        return 134;
+    }
 }
 
 

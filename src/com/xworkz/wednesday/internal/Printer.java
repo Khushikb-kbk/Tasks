@@ -16,6 +16,10 @@ public class Printer
     public String toString() {
         return "Brand: " + brand + ", Color: " + color + ", PPM: " + ppm;
     }
+    @Override
+    public int hashCode() {
+        return 530;
+    }
 }
 
 

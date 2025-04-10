@@ -16,6 +16,10 @@ public class Biometricwallet
     public String toString() {
         return "Color: " + color + ", Fingerprint Lock: " + fingerprintLock + ", Card Capacity: " + cardCapacity;
     }
+    @Override
+    public int hashCode() {
+        return 100;
+    }
 }
 
 

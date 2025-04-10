@@ -17,6 +17,10 @@ public class BluetoothSpeaker
     public String toString() {
         return "Brand: " + brand + ", Battery: " + batteryCapacity + " mAh, Waterproof: " + waterproof;
     }
+    @Override
+    public int hashCode() {
+        return 120;
+    }
 }
 
 

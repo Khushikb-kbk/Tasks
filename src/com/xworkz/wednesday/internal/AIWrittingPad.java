@@ -16,6 +16,10 @@ public class AIWrittingPad
     public String toString() {
         return "Style: " + handwritingStyle + ", Grammar Correction: " + grammarCorrection + ", Pages: " + memoryPages;
     }
+    @Override
+    public int hashCode() {
+        return 90;
+    }
 }
 
 

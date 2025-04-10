@@ -16,6 +16,10 @@ public class Oven
     public String toString(){
         return "Brand :"+brand+" Power : "+power+" Type: "+type;
     }
+    @Override
+    public int hashCode() {
+        return 490;
+    }
 }
 
 

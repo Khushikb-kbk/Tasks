@@ -16,6 +16,10 @@ public class SmartDoorLocker
     public String toString() {
         return "Brand: " + brand + ", Fingerprint Access: " + fingerprintAccess + ", App Control: " + appControl;
     }
+    @Override
+    public int hashCode() {
+        return 600;
+    }
 }
 
 

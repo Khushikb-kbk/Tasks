@@ -16,6 +16,10 @@ public class PowerBank
     public String toString() {
         return "Brand: " + brand + ", Capacity: " + capacity + "mAh, Output Ports: " + outputPorts;
     }
+    @Override
+    public int hashCode() {
+        return 520;
+    }
 }
 
 

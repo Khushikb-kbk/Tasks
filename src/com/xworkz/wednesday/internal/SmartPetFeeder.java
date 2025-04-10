@@ -16,6 +16,10 @@ public class SmartPetFeeder
     public String toString() {
         return "Pet Type: " + petType + ", Meal Portions: " + mealPortions + ", Camera: " + camera;
     }
+    @Override
+    public int hashCode() {
+        return 650;
+    }
 }
 
 

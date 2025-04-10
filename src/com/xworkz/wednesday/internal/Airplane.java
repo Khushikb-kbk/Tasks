@@ -16,6 +16,10 @@ public class Airplane
     public String toString(){
         return "Model :"+model+" Capacity : "+capacity+" Airline : "+airline;
     }
+    @Override
+    public int hashCode() {
+        return 70;
+    }
 }
 
 

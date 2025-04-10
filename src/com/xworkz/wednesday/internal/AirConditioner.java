@@ -16,6 +16,10 @@ public class AirConditioner
     public String toString() {
         return "Brand: " + brand + ", Tonnage: " + tonnage + " Ton, Inverter: " + inverter;
     }
+    @Override
+    public int hashCode() {
+        return 50;
+    }
 }
 
 

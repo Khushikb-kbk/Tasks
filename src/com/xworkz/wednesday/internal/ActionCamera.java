@@ -16,6 +16,11 @@ public class ActionCamera
     public String toString() {
         return "Brand: " + brand + ", Waterproof: " + waterproof + ", Resolution: " + resolution + "p";
     }
+
+    @Override
+    public int hashCode() {
+        return 20;
+    }
 }
 
 

@@ -16,6 +16,10 @@ public class SmartMug
     public String toString() {
         return "Brand: " + brand + ", Temperature: " + temperature + "°C, App Controlled: " + appControlled;
     }
+    @Override
+    public int hashCode() {
+        return 620;
+    }
 }
 
 

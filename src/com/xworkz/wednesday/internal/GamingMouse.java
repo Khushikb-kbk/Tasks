@@ -16,6 +16,10 @@ public class GamingMouse
     public String toString() {
         return "Brand: " + brand + ", DPI: " + dpi + ", RGB Lighting: " + rgbLighting;
     }
+    @Override
+    public int hashCode() {
+        return 310;
+    }
 }
 
 

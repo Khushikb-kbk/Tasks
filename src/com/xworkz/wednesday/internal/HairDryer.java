@@ -16,6 +16,10 @@ public class HairDryer
     public String toString() {
         return "Brand: " + brand + ", Power: " + power + "W, Cool Shot: " + coolShot;
     }
+    @Override
+    public int hashCode() {
+        return 330;
+    }
 }
 
 

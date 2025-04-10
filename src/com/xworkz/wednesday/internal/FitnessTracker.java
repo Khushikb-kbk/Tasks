@@ -17,5 +17,9 @@ FitnessTracker
     public String toString() {
         return "Brand: " + brand + ", Heart Rate Monitor: " + heartRateMonitor + ", Battery Life: " + batteryLife + " days";
     }
+    @Override
+    public int hashCode() {
+        return 294;
+    }
 }
 

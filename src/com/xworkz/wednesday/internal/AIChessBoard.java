@@ -16,6 +16,10 @@ public class AIChessBoard
     public String toString() {
         return "Material: " + material + ", Auto-Move Pieces: " + autoMovePieces + ", Difficulty Levels: " + difficultyLevels;
     }
+    @Override
+    public int hashCode() {
+        return 40;
+    }
 }
 
 

@@ -16,6 +16,10 @@ public class PortableProjector
     public String toString() {
         return "Brand: " + brand + ", Lumens: " + lumens + ", HD Support: " + hdSupport;
     }
+    @Override
+    public int hashCode() {
+        return 500;
+    }
 }
 
 

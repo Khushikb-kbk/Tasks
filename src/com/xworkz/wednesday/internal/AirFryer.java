@@ -17,6 +17,10 @@ AirFryer
     public String toString() {
         return "Brand: " + brand + ", Capacity: " + capacity + "L, Digital Display: " + digitalDisplay;
     }
+    @Override
+    public int hashCode() {
+        return 60;
+    }
 }
 
 

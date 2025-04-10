@@ -16,6 +16,10 @@ public class CoffeeMachine
     public String toString() {
         return "Brand: " + brand + ", Cup Capacity: " + cupCapacity + ", Milk Frother: " + milkFrother;
     }
+    @Override
+    public int hashCode() {
+        return 178;
+    }
 }
 
 

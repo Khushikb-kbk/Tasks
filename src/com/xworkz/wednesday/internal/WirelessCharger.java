@@ -16,6 +16,10 @@ public class WirelessCharger
     public String toString() {
         return "Brand: " + brand + ", Wattage: " + wattage + "W, Fast Charge: " + fastCharge;
     }
+    @Override
+    public int hashCode() {
+        return 930;
+    }
 }
 
 

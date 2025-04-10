@@ -16,6 +16,10 @@ public class SmartDoorSensor
     public String toString() {
         return "Door: " + doorType + ", Tamper Alert: " + tamperAlert + ", Battery: " + batteryLife + " months";
     }
+    @Override
+    public int hashCode() {
+        return 610;
+    }
 }
 
 

@@ -15,6 +15,10 @@ public class Course {
     public String toString() {
         return "Title: " + title + ", Duration: " + durationWeeks + " weeks, Online: " + online;
     }
+    @Override
+    public int hashCode() {
+        return 190;
+    }
 }
 
 

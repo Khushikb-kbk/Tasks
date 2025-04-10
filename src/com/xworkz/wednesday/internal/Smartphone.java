@@ -16,6 +16,10 @@ public class Smartphone
     public String toString() {
         return "Brand: " + brand + ", Model: " + model + ", Storage: " + storage + "GB";
     }
+    @Override
+    public int hashCode() {
+        return 670;
+    }
 }
 
 

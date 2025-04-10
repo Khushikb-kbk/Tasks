@@ -16,6 +16,10 @@ public class PortableScanner
     public String toString() {
         return "Model: " + model + ", Resolution: " + dpi + " DPI, Wireless: " + wireless;
     }
+    @Override
+    public int hashCode() {
+        return 510;
+    }
 }
 
 

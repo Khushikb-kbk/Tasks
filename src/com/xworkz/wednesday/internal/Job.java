@@ -16,7 +16,10 @@ public class Job
     public String toString(){
         return "Title :"+title+" Company : "+company+" Salary : "+salary;
     }
-
+    @Override
+    public int hashCode() {
+        return 400;
+    }
 }
 
 

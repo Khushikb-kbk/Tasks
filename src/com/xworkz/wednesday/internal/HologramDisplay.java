@@ -16,6 +16,10 @@ public class HologramDisplay
     public String toString() {
         return "Resolution: " + resolution + ", Voice Control: " + voiceControl + ", Size: " + sizeInInches + "\"";
     }
+    @Override
+    public int hashCode() {
+        return 360;
+    }
 }
 
 

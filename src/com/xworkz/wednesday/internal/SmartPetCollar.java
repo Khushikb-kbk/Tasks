@@ -14,5 +14,9 @@ public class SmartPetCollar
     public String toString() {
         return   ", GPS Enabled: " + gpsEnabled + ", Battery: " + batteryHours + " hrs";
     }
+    @Override
+    public int hashCode() {
+        return 640;
+    }
 }
 

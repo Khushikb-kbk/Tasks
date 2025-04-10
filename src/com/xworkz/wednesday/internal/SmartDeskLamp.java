@@ -16,6 +16,10 @@ public class SmartDeskLamp
     public String toString() {
         return "Light Color: " + lightColor + ", Brightness: " + brightnessLevel + ", Motion Sensor: " + motionSensor;
     }
+    @Override
+    public int hashCode() {
+        return 590;
+    }
 }
 
 

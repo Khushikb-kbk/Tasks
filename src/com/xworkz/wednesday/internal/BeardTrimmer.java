@@ -16,6 +16,10 @@ public class BeardTrimmer
     public String toString() {
         return "Brand: " + brand + ", Length Settings: " + lengthSettings + ", Cordless: " + cordless;
     }
+    @Override
+    public int hashCode() {
+        return 10;
+    }
 }
 
 

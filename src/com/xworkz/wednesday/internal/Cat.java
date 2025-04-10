@@ -16,6 +16,10 @@ public class Cat
     public String toString(){
         return "Breed :"+breed+" Color : "+color+" Age : "+age;
     }
+    @Override
+    public int hashCode() {
+        return 156;
+    }
 }
 
 

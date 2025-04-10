@@ -16,6 +16,10 @@ public class EInkNotebook
     public String toString() {
         return "Model: " + model + ", Pages: " + pages + ", Stylus Support: " + stylusSupport;
     }
+    @Override
+    public int hashCode() {
+        return 260;
+    }
 }
 
 

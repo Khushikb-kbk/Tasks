@@ -16,6 +16,10 @@ public class SolarBackpack
     public String toString() {
         return "Brand: " + brand + ", Wattage Output: " + wattageOutput + "W, USB Charging: " + usbCharging;
     }
+    @Override
+public int hashCode() {
+    return 739;
+}
 
 }
 

@@ -16,6 +16,10 @@ public class Scanner
     public String toString() {
         return "Brand: " + brand + ", Resolution: " + resolution + "dpi, Portable: " + portable;
     }
+    @Override
+    public int hashCode() {
+        return 564;
+    }
 }
 
 

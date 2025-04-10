@@ -15,5 +15,9 @@ public class Television {
     public String toString() {
         return "Type: " + type + ", Size: " + size + " inch, Smart: " + smart;
     }
+    @Override
+    public int hashCode() {
+        return 860;
+    }
 }
 

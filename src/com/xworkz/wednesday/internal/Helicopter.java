@@ -16,6 +16,10 @@ public class Helicopter
     public String toString() {
         return "Model: " + model + ", Rotor Blades: " + rotorBlades + ", Military Use: " + militaryUse;
     }
+    @Override
+    public int hashCode() {
+        return 326;
+    }
 }
 
 

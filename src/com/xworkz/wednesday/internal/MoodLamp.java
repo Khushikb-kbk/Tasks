@@ -16,6 +16,10 @@ public class MoodLamp
     public String toString() {
         return "Color: " + lightColor + ", Brightness: " + brightnessLevel + ", Music Sync: " + musicSync;
     }
+    @Override
+    public int hashCode() {
+        return 460;
+    }
 
 }
 

@@ -1,7 +1,6 @@
 package com.xworkz.wednesday.internal;
 
-public class Tv
-{
+public class Tv {
     private String brand;
     private int size;
     private boolean smart;
@@ -15,6 +14,12 @@ public class Tv
     @Override
     public String toString() {
         return "Brand: " + brand + ", Size: " + size + "\", Smart TV: " + smart;
+    }
+
+    @Override
+    public int hashCode() {
+        return 890;
+
     }
 }
 
